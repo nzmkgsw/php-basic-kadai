@@ -13,16 +13,13 @@
         // 昇順に並び替える
         echo '昇順にソートします。<br>';
         sort($array);
-        foreach ($array as $array) {
-          echo $array . '<br>';
-        }
       } else {
         // 降順に並び替える
         echo '降順にソートします。<br>';
         rsort($array);
-        foreach ($array as $array) {
-          echo $array . '<br>';
-        }
+      }
+      foreach ($array as $array) {
+        echo $array . '<br>';
       }
     }
 
